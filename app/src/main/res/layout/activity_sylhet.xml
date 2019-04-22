@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context="com.example.mypc.bd64districtinfo.DhakaActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/moulavibazarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Moulavibazar_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+    <Button
+            android:id="@+id/sylhetdistrctId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sylhet_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+        <Button
+            android:id="@+id/sunamganjId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sunamganj_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+        <Button
+            android:id="@+id/habiganjId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hobiganj_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+        </LinearLayout>
+    </ScrollView>

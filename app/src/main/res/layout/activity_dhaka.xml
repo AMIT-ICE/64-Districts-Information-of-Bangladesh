@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context="com.example.mypc.bd64districtinfo.DhakaActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/kishoreganjId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Kishoreganj_button"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gazipurId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Gazipur_button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/gopalganjId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Gopalganj_button"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dhakaDistrictId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/dhaka_button"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/narayanId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Narayanganj_button"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/faridpurId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Faridpur_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tangailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Tangail_button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/narshindiId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Narshindi_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/madaripurId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Madaripur_button"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/manikganjId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Manikganj_button"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/munshiganjId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Munshiganj_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/rajbariId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Rajbari_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shariyatId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Shariyatpur_button"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>
+

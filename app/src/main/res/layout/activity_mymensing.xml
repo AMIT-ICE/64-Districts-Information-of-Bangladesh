@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context="com.example.mypc.bd64districtinfo.DhakaActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/jamalpurId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/jamalpur_button"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/netrokonaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Netrokona_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/mymensinghId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Mymensingh_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+    <Button
+            android:id="@+id/sherpurId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sherpur_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp" />
+
+        </LinearLayout>
+    </ScrollView>

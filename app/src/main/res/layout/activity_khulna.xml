@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:padding="30dp"
+    tools:context="com.example.mypc.bd64districtinfo.KhulnaActivity"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/norailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Norail_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cuadangaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Cuadanga_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/kushtiaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Kushtia_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/khulnaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Khulna_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/bagerhatId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Bagerhat_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/jhinaidaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Jhinaida_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/maguraId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Magura_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/meherpurId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Meherpur_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/jessoreId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Jessore_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/satkhiraId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Satkhira_button"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"
+        />
+</LinearLayout>
+
+</ScrollView>
